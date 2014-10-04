@@ -1,0 +1,4 @@
+# ThinkPad Fn+F6 
+event=ibm/hotkey HKEY 00000080 00001006
+action=/etc/acpi/thinkpad-wwan.sh
+

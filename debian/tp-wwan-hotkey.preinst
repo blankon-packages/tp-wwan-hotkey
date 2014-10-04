@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+# Remove obsolete version
+
+rm -f /etc/acpi/ibm-wwan.sh 
+rm -f /etc/acpi/events/ibm-wwan
+
+#DEBHELPER#

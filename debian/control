@@ -1,0 +1,14 @@
+Source: tp-wwan-hotkey
+Section: misc
+Priority: optional
+Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
+XSBC-Original-Maintainer: Thomas Koch <linrunner@gmx.net>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.3
+
+Package: tp-wwan-hotkey
+Architecture: all
+Depends: ${misc:Depends}, acpi-support, wireless-tools, libnotify-bin
+Description: wwan hotkey
+ Enable Fn+F6 (webcam) as wwan hotkey on IBM/Lenovo ThinkPads.
+ Edge, L, X100e keyboards: F5.
